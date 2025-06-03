@@ -57,8 +57,8 @@ weather-pipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-pipeline.git
-cd weather-pipeline
+git clone (https://github.com/bellonbits/Weather-Data-Lake-to-Data-Warehouse-Pipeline).git
+cd Weather-Data-Lake-to-Data-Warehouse-Pipeline
 ```
 
 ### 2. Create Python Virtual Environment
@@ -110,7 +110,7 @@ python load_to_warehouse.py
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 | timestamp           | city    | temperature | humidity | description      |
 | ------------------- | ------- | ----------- | -------- | ---------------- |
@@ -118,14 +118,14 @@ python load_to_warehouse.py
 
 ---
 
-## 🔐 Configuration Notes
+## Configuration Notes
 
 * Make sure PostgreSQL is running and accessible on the given host/port.
 * To secure credentials, consider using environment variables or a `config.json` file.
 
 ---
 
-## 📊 Next Steps
+## Next Steps
 
 * Connect PostgreSQL to **Apache Superset** or **Power BI Desktop**.
 * Schedule scripts using **The Apache Airflow**.
@@ -133,7 +133,7 @@ python load_to_warehouse.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Peter Gatitu Mwangi**
 Email: [petergatitu61@gmail.com](mailto:petergatitu61@gmail.com)
